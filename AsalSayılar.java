@@ -5,7 +5,7 @@ public class AsalSayılar {
     public static void main(String[] args) {
 
 
-        int count=0;
+
         for(int sayi=2;sayi<=100;sayi++){
 
             boolean control = false;
@@ -21,7 +21,7 @@ public class AsalSayılar {
             }
             if (control == false){
                 System.out.print(sayi+" ");
-                count++;
+
             }
 
         }
